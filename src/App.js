@@ -12,8 +12,8 @@ function App() {
     <HashRouter>
       <Navigation />
       <Route path="/" exact={true} component={Home} />
-      <Route path="/about" compon ent={About} />
-      <Route path="/movie/:id" component={Detail} />
+      <Route path="/about" exact={true} component={About} />
+      <Route path="/movie/:id" exact={true} component={Detail} />
     </HashRouter>
   )
 }
